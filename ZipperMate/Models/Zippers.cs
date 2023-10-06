@@ -14,5 +14,8 @@ namespace ZipperMate.Models
         public decimal Price { get; set; }
 
         public string Colours { get; set; }
+
+        public int Review { get; set; }
+
     }
 }

@@ -54,7 +54,7 @@ namespace ZipperMate.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Material,Use,Durabilty,Price,Colours")] Zippers zippers)
+        public async Task<IActionResult> Create([Bind("Id,Name,Material,Use,Durabilty,Price,Colours,Review")] Zippers zippers)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace ZipperMate.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Material,Use,Durabilty,Price,Colours")] Zippers zippers)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Material,Use,Durabilty,Price,Colours,Review")] Zippers zippers)
         {
             if (id != zippers.Id)
             {
