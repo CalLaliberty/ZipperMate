@@ -103,3 +103,16 @@ Tested app, no issues or errors. Was able to add a zipper to the page and edit i
 Save and update README and push to GitHub.
 
 
+12:15
+Created a file called SeedData.cs Models/
+
+Updated code in the file with my seed data to display in zippers.
+
+Created some text just to test code, will update with correct info.
+
+Updated code in Program.cs
+
+Test the app, no issues or errors the data all apears on the page.
+
+Update README and push to Github.
+
