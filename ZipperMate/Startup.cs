@@ -34,6 +34,9 @@ namespace ZipperMate
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<ZipperMateContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ZipperMateContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
