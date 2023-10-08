@@ -6,7 +6,7 @@ Date: 2023-10-05
 
 -------------------------------------------------------------
                         2023-10-05 📅
-10:30⏰
+10:30 PM ⏰
 -------------------------------------------------------------
 
 Created a ASP.net App, run app everything works correctlly.
@@ -15,14 +15,14 @@ First file made is a README.txt to document my development of
 the App. Any issues and solutions can be found here.
 
 -------------------------------------------------------------
-10:33⏰
+10:33 PM ⏰
 -------------------------------------------------------------
 
 Created a Github repository so I can save my work and be able 
 to us it on other devices as well with ease.
 
 -------------------------------------------------------------
-10:48⏰
+10:48 PM ⏰
 -------------------------------------------------------------
 
 Made a About.cshtml file inside of views.
@@ -42,7 +42,7 @@ to the nav bar.
 </li>
 
 -------------------------------------------------------------
-10:50⏰
+10:50 PM ⏰
 -------------------------------------------------------------
 
 Ran program. No issues or errors. About Us link works correctly. 
@@ -51,7 +51,7 @@ Update About us with some basic text's just to see what it will look like, I
 will update with more info later.
 
 -------------------------------------------------------------
-11:00⏰
+11:00 PM ⏰
 -------------------------------------------------------------
 
 Created a new file called Zipper.cs in Models/
@@ -75,7 +75,7 @@ namespace ZipperMate.Models
 Already had Microsoft.EntityFrameworkCore.SqlServer installed.
 
 -------------------------------------------------------------
-11:20⏰
+11:20 PM ⏰
 -------------------------------------------------------------
 
 Created my Data file Data/ZipperMateContext.cs
@@ -99,7 +99,7 @@ namespace ZipperMate.Data
 No errors or warnings with this code used.
 
 -------------------------------------------------------------
-11:25⏰
+11:25 PM ⏰
 -------------------------------------------------------------
 
 Created a new scaffolded item from Controllers->Add->New Scaffolded item
@@ -112,7 +112,7 @@ Select Add.
 Build was successful, no issues or errors.
 
 -------------------------------------------------------------
-11:30⏰
+11:30 PM ⏰
 -------------------------------------------------------------
 
 Ran these commands into NuGet Package Manager (PMC)
@@ -123,7 +123,7 @@ Update-Database -context ZipperMateContext
 Was having issues, make sure to have -context "name" of file.
 
 -------------------------------------------------------------
-11:35⏰
+11:35 PM ⏰
 -------------------------------------------------------------
 
 Tested app, no issues or errors. Was able to add a zipper to the page and edit it as well.
@@ -131,7 +131,7 @@ Tested app, no issues or errors. Was able to add a zipper to the page and edit i
 Save and update README and push to GitHub.
 
 -------------------------------------------------------------
-12:15⏰
+12:15 AM ⏰
 -------------------------------------------------------------
 
 Created a file called SeedData.cs Models/
@@ -150,7 +150,7 @@ Update README and push to Github.
 
 -------------------------------------------------------------
                          2023-10-06 📅
-10:55⏰
+10:55 AM ⏰
 -------------------------------------------------------------
 
 Updated code in _Layout.cshtml.
@@ -162,7 +162,7 @@ Changed "Home" to  "Zippers" this way the user can click
 the "logo" and go to the inventory.
 
 -------------------------------------------------------------
-11:18⏰
+11:18 AM ⏰
 -------------------------------------------------------------
 
 I forgot to add a section for a review on the product.
@@ -180,15 +180,96 @@ Updated code in Models/SeedData.cs - added Review.
 Ran program, no issues or errors. Save and push to Github.
 
 -------------------------------------------------------------
-11:25⏰
+11:25 AM ⏰
 -------------------------------------------------------------
 
 I've successfully completed the creation of my Zipper page,
 and everything is functioning as intended.
 
-Next on the agenda is the refinement of my content to
+Next is the refinement of my content to
 align with our company's identity and product offerings.
 This involves enhancing the frontend and fine-tuning the
 content across all my pages.
 
+-------------------------------------------------------------
+                         2023-10-07 📅
+2:20 PM ⏰
+-------------------------------------------------------------
 
+Updated the index home page to welcome the user to ZipperMate
+giving a short description of the company and what they offer.
+
+Created a folder called fonts wwwroot/fonts
+Placed my font files inside of font and inserted my line of 
+code in the site.css.
+
+@font-face {
+    font-family: 'zen_dotsregular';
+    src: url('/fonts/zendots-regular-webfont.woff2') format('woff2'), url('/fonts/zendots-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+Ran program font is applied correctly.
+
+
+-------------------------------------------------------------
+3:30 PM ⏰
+-------------------------------------------------------------
+
+Added some cards at the bottom of the page to give more details about the product.
+
+Filled in cards with stock images and text content.
+
+Added some bootstrap style to make my cards line up horizontally.
+
+Run code no errors or issues.
+
+-------------------------------------------------------------
+3:47 PM	⏰
+-------------------------------------------------------------
+
+Updated About us page, with a more detailed about us.
+
+Added a carousel to the top of the page to display some of the products.
+
+Tested code. No issues.
+
+-------------------------------------------------------------
+4:25 PM ⏰
+-------------------------------------------------------------
+
+Deleted everything in my table and updated SeedDate to display 10 items 
+
+Updated all the info for each new item.
+
+Ran this command:
+
+Update-Database -context ZipperMateContext
+
+Ran program new items are populated.
+
+No issues or errors.
+
+-------------------------------------------------------------
+5:00 PM ⏰
+-------------------------------------------------------------
+
+Added some colour to the body and footer 
+
+Added my CSS template, to make my CSS more readable
+
+Had issues with CSS not appearing on my webpage.
+
+Clear browsing data in seemed to have resolved the issue, make note for future.
+
+-------------------------------------------------------------
+5:36 PM ⏰
+-------------------------------------------------------------
+
+Front end adjustments, Tested app. No issues or errors.
+
+
+-------------------------------------------------------------
+6:15 PM ⏰
+-------------------------------------------------------------
