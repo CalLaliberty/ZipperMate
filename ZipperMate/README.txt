@@ -15,14 +15,14 @@ First file made is a README.txt to document my development of
 the App. Any issues and solutions can be found here.
 
 -------------------------------------------------------------
-10:33 PM ⏰
+10:33 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Created a Github repository so I can save my work and be able 
 to us it on other devices as well with ease.
 
 -------------------------------------------------------------
-10:48 PM ⏰
+10:48 PM ⏰-  2023-10-05 📅
 -------------------------------------------------------------
 
 Made a About.cshtml file inside of views.
@@ -42,7 +42,7 @@ to the nav bar.
 </li>
 
 -------------------------------------------------------------
-10:50 PM ⏰
+10:50 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Ran program. No issues or errors. About Us link works correctly. 
@@ -51,7 +51,7 @@ Update About us with some basic text's just to see what it will look like, I
 will update with more info later.
 
 -------------------------------------------------------------
-11:00 PM ⏰
+11:00 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Created a new file called Zipper.cs in Models/
@@ -75,7 +75,7 @@ namespace ZipperMate.Models
 Already had Microsoft.EntityFrameworkCore.SqlServer installed.
 
 -------------------------------------------------------------
-11:20 PM ⏰
+11:20 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Created my Data file Data/ZipperMateContext.cs
@@ -99,7 +99,7 @@ namespace ZipperMate.Data
 No errors or warnings with this code used.
 
 -------------------------------------------------------------
-11:25 PM ⏰
+11:25 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Created a new scaffolded item from Controllers->Add->New Scaffolded item
@@ -112,7 +112,7 @@ Select Add.
 Build was successful, no issues or errors.
 
 -------------------------------------------------------------
-11:30 PM ⏰
+11:30 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Ran these commands into NuGet Package Manager (PMC)
@@ -123,7 +123,7 @@ Update-Database -context ZipperMateContext
 Was having issues, make sure to have -context "name" of file.
 
 -------------------------------------------------------------
-11:35 PM ⏰
+11:35 PM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Tested app, no issues or errors. Was able to add a zipper to the page and edit it as well.
@@ -131,7 +131,7 @@ Tested app, no issues or errors. Was able to add a zipper to the page and edit i
 Save and update README and push to GitHub.
 
 -------------------------------------------------------------
-12:15 AM ⏰
+12:15 AM ⏰ -  2023-10-05 📅
 -------------------------------------------------------------
 
 Created a file called SeedData.cs Models/
@@ -162,7 +162,7 @@ Changed "Home" to  "Zippers" this way the user can click
 the "logo" and go to the inventory.
 
 -------------------------------------------------------------
-11:18 AM ⏰
+11:18 AM ⏰ - 2023-10-06 📅
 -------------------------------------------------------------
 
 I forgot to add a section for a review on the product.
@@ -180,7 +180,7 @@ Updated code in Models/SeedData.cs - added Review.
 Ran program, no issues or errors. Save and push to Github.
 
 -------------------------------------------------------------
-11:25 AM ⏰
+11:25 AM ⏰ - 2023-10-06 📅
 -------------------------------------------------------------
 
 I've successfully completed the creation of my Zipper page,
@@ -214,7 +214,7 @@ Ran program font is applied correctly.
 
 
 -------------------------------------------------------------
-3:30 PM ⏰
+3:30 PM ⏰ - 2023-10-07 📅
 -------------------------------------------------------------
 
 Added some cards at the bottom of the page to give more details about the product.
@@ -226,7 +226,7 @@ Added some bootstrap style to make my cards line up horizontally.
 Run code no errors or issues.
 
 -------------------------------------------------------------
-3:47 PM	⏰
+3:47 PM	⏰- 2023-10-07 📅
 -------------------------------------------------------------
 
 Updated About us page, with a more detailed about us.
@@ -236,7 +236,7 @@ Added a carousel to the top of the page to display some of the products.
 Tested code. No issues.
 
 -------------------------------------------------------------
-4:25 PM ⏰
+4:25 PM ⏰ - 2023-10-07 📅
 -------------------------------------------------------------
 
 Deleted everything in my table and updated SeedDate to display 10 items 
@@ -252,7 +252,7 @@ Ran program new items are populated.
 No issues or errors.
 
 -------------------------------------------------------------
-5:00 PM ⏰
+5:00 PM ⏰ - 2023-10-07 📅
 -------------------------------------------------------------
 
 Added some colour to the body and footer 
@@ -264,12 +264,79 @@ Had issues with CSS not appearing on my webpage.
 Clear browsing data in seemed to have resolved the issue, make note for future.
 
 -------------------------------------------------------------
-5:36 PM ⏰
+5:36 PM ⏰ - 2023-10-07 📅
 -------------------------------------------------------------
 
 Front end adjustments, Tested app. No issues or errors.
 
 
 -------------------------------------------------------------
-6:15 PM ⏰
+4:25 PM ⏰ - 2023-10-07 📅
 -------------------------------------------------------------
+
+Deleted everything in my table and updated SeedDate to display 10 items 
+
+Updated all the info for each new item.
+
+Ran this command:
+
+Update-Database -context ZipperMateContext
+
+Ran program new items are populated.
+
+No issues or errors.
+
+-------------------------------------------------------------
+5:00 PM ⏰ - 2023-10-07 📅
+-------------------------------------------------------------
+
+Added some colour to the body and footer 
+
+Added my CSS template, to make my CSS more readable
+
+Had issues with CSS not appearing on my webpage.
+
+Clear browsing data in seemed to have resolved the issue, make note for future.
+
+-------------------------------------------------------------
+5:36 PM ⏰ - 2023-10-07 📅
+-------------------------------------------------------------
+
+Made some Front-end adjustments, Tested app. No issues or errors.
+
+
+-------------------------------------------------------------
+                         2023-10-08 📅
+4:35 PM ⏰
+-------------------------------------------------------------
+
+Final revison of content on page, layout looks nice and not to 
+clutterd quick easy to read.
+
+Ran program no issues or errors.
+
+-------------------------------------------------------------
+                         2023-10-10 📅
+7:48 PM ⏰
+-------------------------------------------------------------
+
+Created a README.md on github, giving a breif description of my 
+project.
+
+-------------------------------------------------------------
+8:00 PM	⏰  2023-10-10 📅
+-------------------------------------------------------------
+
+Added validation rules to the properties of Zippers.
+This will prevent user inputing incorrect data into the table (GIGO).
+
+Ran and tested program no issues or errors.
+
+-------------------------------------------------------------
+                         2023-10-13 📅
+11:12 PM ⏰
+-------------------------------------------------------------
+
+Final check of code and webpage.
+
+Run program no issues or errors.
